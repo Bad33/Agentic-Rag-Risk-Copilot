@@ -1,0 +1,65 @@
+[
+  {
+    "id": "doc_nist_csf",
+    "title": "NIST Cybersecurity Framework Overview",
+    "summary": "Explains the Identify-Protect-Detect-Respond-Recover functions and their relationship to cyber risk governance.",
+    "details": "The NIST Cybersecurity Framework (CSF) offers a flexible structure that maps business objectives to cybersecurity outcomes. It is organised into five core functions: Identify, Protect, Detect, Respond, and Recover. Each function contains categories and subcategories that help organisations determine current capabilities and target profiles. Implementation tiers enable incremental maturity improvements. The CSF encourages regular risk assessments, asset inventories, baseline control selection, and continuous measurement through governance buy-in and stakeholder communication.",
+    "tags": ["cyber", "governance", "framework", "maturity"],
+    "source": "Self-authored summary referencing NIST CSF 1.1 (2018)",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_iso_27001",
+    "title": "ISO/IEC 27001 Control Themes",
+    "summary": "Describes the Annex A control families and how they support information security risk treatment.",
+    "details": "ISO/IEC 27001 defines requirements for establishing, implementing, maintaining, and continually improving an information security management system (ISMS). Annex A provides control objectives across themes such as organisational controls, people controls, physical controls, and technological controls. Risk treatment involves selecting controls based on business context, legal obligations, and threat landscape. Continual improvement is driven by Plan-Do-Check-Act cycles, internal audits, management reviews, and corrective actions.",
+    "tags": ["cyber", "compliance", "controls", "ism"],
+    "source": "Self-authored summary referencing ISO/IEC 27001:2022",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_third_party",
+    "title": "Third-Party Risk Lifecycle",
+    "summary": "Covers the phases of assessing and monitoring vendor risk across procurement, onboarding, and operations.",
+    "details": "Third-party risk management requires visibility into vendor services, data access, and criticality. The lifecycle typically spans due diligence, contract negotiation, onboarding, ongoing monitoring, and termination. Key controls include risk questionnaires, service level agreements, security addenda, data handling requirements, and performance tracking. Continuous monitoring leverages attestations, evidence reviews, and trigger-based reassessments when services change. Clear exit strategies reduce business disruption and data exposure.",
+    "tags": ["third-party", "vendor", "operational", "lifecycle"],
+    "source": "Self-authored guidance based on common third-party risk practices",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_business_continuity",
+    "title": "Business Continuity Core Practices",
+    "summary": "Outlines impact analysis, continuity planning, and recovery exercises for resilience programmes.",
+    "details": "Business continuity planning centres on understanding critical processes, dependencies, and recovery time objectives. Business impact analysis identifies acceptable downtime and resource requirements. Continuity plans document response procedures, communication trees, and manual workarounds. Testing through tabletop walkthroughs and full-scale exercises validates assumptions and staff readiness. Lessons learned inform plan updates, while integration with incident response and crisis management ensures cohesive governance.",
+    "tags": ["resilience", "operational", "continuity", "response"],
+    "source": "Self-authored summary referencing ISO 22301 concepts",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_privacy",
+    "title": "Data Privacy Risk Considerations",
+    "summary": "Highlights privacy risk themes such as data minimisation, consent, and regulatory obligations.",
+    "details": "Privacy risk assessments examine how personal data is collected, processed, stored, shared, and disposed. Key considerations include lawful basis, consent management, transparency notices, minimisation, retention limits, and subject rights fulfilment. Technical controls—such as encryption, access restrictions, and audit logging—support organisational measures like policies, training, and vendor oversight. Regulatory obligations vary across jurisdictions, so governance should map controls to applicable laws while tracking cross-border data flows.",
+    "tags": ["privacy", "compliance", "data", "governance"],
+    "source": "Self-authored overview synthesising GDPR and global privacy practices",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_risk_register",
+    "title": "Effective Risk Register Practices",
+    "summary": "Discusses structuring, prioritising, and monitoring risk entries within a register.",
+    "details": "A risk register consolidates identified risks, owners, ratings, mitigation plans, and status tracking. Useful attributes include risk statements, impact/likelihood scores, inherent vs residual ratings, key risk indicators, and review dates. Prioritisation should connect to strategic objectives and tolerance thresholds. Governance committees review the register frequently, ensuring action plans progress and emerging risks are captured. Tooling may range from spreadsheets to integrated GRC platforms but should enable auditability and reporting.",
+    "tags": ["governance", "register", "metrics", "reporting"],
+    "source": "Self-authored guidance based on enterprise risk management practices",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "id": "doc_ransomware_playbook",
+    "title": "Ransomware Scenario Response Playbook",
+    "summary": "Provides a staged approach for preparing and responding to ransomware incidents.",
+    "details": "Ransomware preparation includes asset criticality mapping, immutable backups, network segmentation, and detection tuning. When an encryption event triggers, response teams follow containment steps, preserve evidence, and engage legal and communication leads. Decision matrices guide ransom evaluation, but restoration efforts prioritise clean systems using verified backups. Post-incident reviews assess initial infection vectors, update controls, and enhance user awareness campaigns. Coordination with insurers and law enforcement is recommended where applicable.",
+    "tags": ["cyber", "incident-response", "ransomware", "resilience"],
+    "source": "Self-authored playbook drawing on industry ransomware response guidance",
+    "license": "CC-BY-4.0"
+  }
+]
